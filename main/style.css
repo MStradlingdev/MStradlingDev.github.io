@@ -954,7 +954,7 @@ footer h1 {
 }
 
 /* MOBILE RESPONSIVENESS */
-@media screen and (max-width: 700px){
+@media screen and (min-width: 300px) and (max-width: 700px) {
     header {
         position: fixed;
         height: 50px;
@@ -973,7 +973,7 @@ footer h1 {
     }
 
     .blackhole-box video {
-        margin-top: -16;
+        margin-top: -16px;
     }
 
     .hero {
@@ -987,6 +987,7 @@ footer h1 {
     .hero-info {
         bottom: 5%;
     }
+
     .scroll-down {
         bottom: 5%;
     }
@@ -1020,7 +1021,7 @@ footer h1 {
     }
 
     .project-info h1 {
-        text-wrap: nowrap;
+        white-space: nowrap;
     }
 
     .project-info p {
@@ -1046,11 +1047,11 @@ footer h1 {
         bottom: 0;
     }
 
-    .slider img{
+    .slider img {
         width: 60%;
     }
 
-    .contact-section{
+    .contact-section {
         flex-direction: column;
         margin-top: 100px;
         margin-bottom: 50px;
